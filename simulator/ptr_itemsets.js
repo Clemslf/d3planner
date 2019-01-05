@@ -414,7 +414,7 @@ asheara's: todo
     }
     var buffname;
     Sim.watchBuff("mystically", function(data) {
-      buffname = Sim.setBuffStacks(buffname, {dmgmul: 1500}, data.stacks);
+      buffname = Sim.setBuffStacks(buffname, {dmgmul: 750}, data.stacks);
     });
   };
 
